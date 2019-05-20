@@ -1,5 +1,5 @@
 BootStrap: docker 
-From: fedora:30
+From: fedora:29
 
 
 %runscript
