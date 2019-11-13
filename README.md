@@ -1,5 +1,7 @@
 # QGIS via Singularity
 
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3001)
+
 ## Fedora 29
 
 No special instructions
