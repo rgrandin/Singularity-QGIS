@@ -1,0 +1,12 @@
+Bootstrap: docker
+From: fedora:latest
+
+%runscript
+    exec /usr/bin/qgis
+
+%post
+    dnf -y install qgis qgis-python qgis-grass qgis-server
+    dnf clean all
+
+    dnf -y install binutils
+    strip --remove-section=.note.ABI-tag /lib64/libQt5Core.so.5
